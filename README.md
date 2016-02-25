@@ -17,3 +17,17 @@
 ### Tech
 
 * React (Webpack), Redux
+
+### Resources
+
+* React Router
+  * https://github.com/reactjs/react-router-tutorial
+  * https://github.com/reactjs/react-router
+* Redux
+  * https://egghead.io/lessons/javascript-redux-the-single-immutable-state-tree
+  * https://github.com/reactjs/redux
+* Webpack
+  * http://survivejs.com/webpack_react/webpack_and_react/
+
+* Further reading on React+Redux for backend and unit testing
+  * http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html
