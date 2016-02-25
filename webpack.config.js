@@ -54,8 +54,9 @@ const common = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-    	template: 'node_modules/html-webpack-template/index.html',
-    	title: 'Meal Planner app',
+    	template: 'node_modules/html-webpack-template/index.ejs',
+    	inject: false,
+      //title: 'Meal Planner app',
     	appMountId: 'app'
     })
   ]
