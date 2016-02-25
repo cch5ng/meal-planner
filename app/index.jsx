@@ -1,0 +1,22 @@
+//app/index.jsx
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {Router, Route, hashHistory} from 'react-router';
+import App from './components/App.jsx';
+import AddRecipe from './components/AddRecipe.jsx';
+//import './fixed-data-table.css';
+
+require("!style!css!sass!./main.scss");
+//require("!css!./fixed-data-table.css");
+
+var css = require("!css!sass!./main.scss");
+
+ReactDOM.render((
+	<Router history={hashHistory} >
+		<Route path='/' component={App} />
+		<Route path='/add' component={AddRecipe} />
+	</Router>
+), document.getElementById('app'));
+
+//<App />
