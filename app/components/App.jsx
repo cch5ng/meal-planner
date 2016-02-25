@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom';
 import '../startup.js';
 import Recipes from './Recipes.jsx';
 import uuid from 'node-uuid';
+import {Link} from 'react-router';
 import {Modal} from 'react-bootstrap';
 import {Button} from 'react-bootstrap';
 import {Input} from 'react-bootstrap';
@@ -43,7 +44,7 @@ export default class App extends React.Component {
 {/* links should be in navbar but fix this later */}
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#">Link</a></li>
+							<li><Link to="/add">Add Recipe</Link></li>
 							<li><a href="#">Link</a></li>
 						</ul>
 					</div>{/*/.navbar-collapse */}
