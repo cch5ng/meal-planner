@@ -50,7 +50,8 @@ export default class Recipe extends React.Component {
 
 		return (
 			<div className={classStrOutter} key={key}>
-				<p className="h4" onClick={this.toggleIngredients}>{name}</p>
+				<Input type="checkbox" label={name} onClick={this.toggleList} />
+				{/*<p className="h4" onClick={this.toggleIngredients}>{name}</p>*/}
 				<div className={classStr}>
 					<p className="h5">INGREDIENTS</p>
 					<div className="ingredientList">
@@ -93,6 +94,12 @@ export default class Recipe extends React.Component {
 				</div>
 			</div>
 		);
+	}
+
+	//if checkbox is checked, should display in sort list at top of page
+	//if checkbox is cleared, should display in list at bottom of page
+	toggleList = () => {
+
 	}
 
 	/**
