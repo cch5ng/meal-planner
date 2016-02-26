@@ -42,8 +42,8 @@ export default class App extends React.Component {
 						</div>
 					</nav>
 {/* links should be in navbar but fix this later */}
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav navbar-right">
+					<div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul className="nav navbar-nav navbar-right">
 							<li><Link to="/add">Add Recipe</Link></li>
 							<li><a href="#">Link</a></li>
 						</ul>
